@@ -1,0 +1,104 @@
+@import './variables';
+
+.figma_plagin {
+      .container {
+            padding: 96px 160px;
+      }
+
+      .plagin_content {
+            display: flex;
+
+            .plagin_left {
+                  max-width: 620px;
+                  h4 {
+                        color: #000;
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        letter-spacing: 3px;
+                        text-transform: uppercase;
+                        margin-bottom:24px ;
+                        margin-top: 21px;
+                  }
+
+                  h1 {
+                        color: #232536;
+                        font-family: Poppins;
+                        font-size: 48px;
+                        font-weight: 600;
+                        line-height: 58px;
+                        margin-bottom:24px ;
+
+                  }
+
+                  p {
+                        color: #232536;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        margin-bottom:24px ;
+                        opacity: 0.87;
+                  }
+
+                  .silka {
+                        display: flex;
+                        gap: 12px;
+                        margin-bottom:44px ;
+                        a {
+                              color: #444CFC;
+                              font-family: Poppins;
+                              font-size: 16px;
+                              font-weight: 500;
+                              line-height: 24px;
+                              text-decoration: none;
+                        }
+                  }
+
+                  .person {
+                        display: flex;
+                        gap: 16px;
+                        align-items: center;
+                        margin-bottom:49px ;
+
+                        h6 {
+                              color: #232536;
+                              font-family: Poppins;
+                              font-size: 16px;
+                              font-weight: 400;
+                              line-height: 24px;
+                              opacity: 0.87;
+                        }
+
+                        p {
+                              color: #232536;
+                              font-family: Poppins;
+                              font-size: 16px;
+                              font-weight: 400;
+                              line-height: 24px;
+                              opacity: 0.6;
+                              border-left: 1px solid rgba(0, 0, 0, 0.20);
+                              padding-left: 16px;
+                        }
+                  }
+                  .imges{
+                        display: flex;
+                        position: relative;
+                        .img-first{
+                              z-index: 2;
+                              overflow: hidden;
+                        }
+
+                        .img-second{
+                              position: absolute;
+                              right: -16px;
+                              z-index: 1;
+                        }
+                  }
+            }
+            .plagin_right{
+                  
+            }
+      }
+}
