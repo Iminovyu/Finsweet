@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 html{
     height: 100vh;
@@ -10,6 +12,8 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 main{
     flex: 1;
