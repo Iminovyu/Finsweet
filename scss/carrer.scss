@@ -1,0 +1,206 @@
+@import './variables';
+
+.career-finsweet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 96px 0;
+      position: relative;
+
+
+      .career-finsweet-content {
+            display: flex;
+            gap: 24px;
+            flex-direction: column;
+            align-items: center;
+            max-width: 624px;
+
+            .pixel {
+                  transform: rotate(90deg);
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+            }
+
+            h3 {
+                  color: $text-color;
+                  font-size: 14px;
+                  font-weight: 500;
+                  line-height: 20px;
+                  letter-spacing: 3px;
+                  text-transform: uppercase;
+                  opacity: 0.87;
+            }
+
+            h1 {
+                  color: $text-color;
+                  text-align: center;
+                  font-size: 48px;
+                  font-weight: 600;
+                  line-height: 58px;
+            }
+
+            p {
+                  color: $text-color;
+                  text-align: center;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  margin-bottom: 32px;
+            }
+
+            .h1 {
+                  margin-bottom: 54px;
+            }
+
+            h6 {
+                  color: $text-color;
+                  font-size: 18px;
+                  font-weight: 500;
+                  line-height: 28px;
+            }
+
+            .emoji {
+                  width: 24px;
+                  height: 24px;
+            }
+
+      }
+}
+
+.jobs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 96px;
+
+      .jobs-content {
+            display: grid;
+            gap: 32px;
+            background: #ECF8F9;
+            grid-template-columns: 354px 354px 354px;
+            grid-template-rows: 243px 243px 243px;
+            padding: 78px;
+
+            .item {
+                  background: #FFF;
+                  padding: 48px 0 30px 48px;
+
+                  h3 {
+                        color: $text-color;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 28px;
+                        margin-bottom: 10px;
+                  }
+
+                  p {
+                        color: $text-color;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        opacity: 0.6;
+                  }
+
+                  a {
+                        color: $secondary-blue;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        display: flex;
+                        gap: 12px;
+                        margin-top: 52px;
+                  }
+
+            }
+      }
+}
+
+.work-culture {
+      background: #FAFAFC;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 96px 0;
+
+      .work-culture-content {
+
+            .text {
+                  max-width: 624px;
+                  margin-bottom: 64px;
+
+                  h4 {
+                        color: $text-color;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        letter-spacing: 3px;
+                        text-transform: uppercase;
+                        opacity: 0.87;
+                        margin-bottom: 16px;
+
+                  }
+
+                  h1 {
+                        color: $text-color;
+                        font-size: 36px;
+                        font-weight: 600;
+                        line-height: 54px;
+                        margin-bottom: 24px;
+                  }
+
+                  p {
+                        color: $text-color;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        opacity: 0.6;
+
+                  }
+            }
+
+            .cards {
+                  display: grid;
+                  grid-template-columns: 420px 420px 420px;
+                  grid-template-rows: 190px 190px;
+                  gap: 12px;
+
+                  .item {
+                        max-width: 420px;
+                        padding: 32px ;
+                        background: #FFF;
+
+                        .emoji {
+                              width: 40px;
+                              height: 40px;
+                              border-radius: 50%;
+                              background: #FFD3AF80;
+                              margin-bottom: 8px;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+
+                              img {
+                                    width: 14px;
+                                    height: 14px;
+                              }
+                        }
+
+                        h3 {
+                              color: var(--Black, #232536);
+                              font-size: 16px;
+                              font-weight: 700;
+                              line-height: 28px;
+                        }
+
+                        p {
+                              color: $text-color;
+                              font-size: 14px;
+                              font-weight: 400;
+                              line-height: 20px;
+                              opacity: 0.6;
+                        }
+                  }
+            }
+      }
+}
