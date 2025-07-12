@@ -1,0 +1,74 @@
+@import './variables';
+
+.privacy {
+      padding-top: 96px;
+      
+      
+      &-content {
+            position: relative;
+            
+            .top{
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+            }
+
+            .bottom{
+                  position: absolute;
+                  left: 0;
+                  bottom: -48px;
+            }
+            
+            img {
+                  margin-bottom: 24px;
+            }
+
+            h1 {
+                  color: $dark-bg;
+                  font-size: 48px;
+                  font-weight: 600;
+                  line-height: 58px;
+                  margin-bottom: 8px;
+            }
+
+            p {
+                  color: $dark-bg;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  margin-bottom: 72px;
+                  opacity: 0.6;
+            }
+
+            .text {
+                  padding: 96px 218px 96px 221px;
+                  background: $blue-bg;
+
+                  h3 {
+                        color: $dark-bg;
+                        font-size: 36px;
+                        font-weight: 600;
+                        line-height: 54px;
+                        margin-bottom: 24px;
+                  }
+
+                  p {
+                        opacity: 1;
+                        margin-bottom: 24px;
+                  }
+
+                  .last {
+                        margin-bottom: 50px;
+                  }
+
+                  h4 {
+                        color: $dark-bg;
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 36px;
+                        margin-bottom: 16px;
+                  }
+
+            }
+      }
+}
