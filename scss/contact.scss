@@ -1,2 +1,182 @@
 @import './variables';
 
+.contact {
+      padding: 96px;
+
+      &-content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .contact-left {
+
+                  .cubic {
+                        margin-bottom: 24px;
+                  }
+
+                  h6 {
+                        color: #000;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        letter-spacing: 3px;
+                        text-transform: uppercase;
+                        margin-bottom: 24px;
+                  }
+
+                  h1 {
+                        color: $dark-bg;
+                        font-size: 48px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 58px;
+                        margin-bottom: 24px;
+                        width: 672px;
+
+                        img {
+                              width: 40px;
+                              height: 40px;
+                        }
+                  }
+
+                  p {
+                        color: $dark-bg;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        width: 619px;
+                        opacity: 0.87;
+                        margin-bottom: 64px;
+                  }
+
+                  form {
+                        h6 {
+                              color: $dark-bg;
+                              opacity: 0.6;
+                              text-transform: none;
+                              letter-spacing: 0;
+                              margin-bottom: 8px;
+                        }
+
+                        input {
+                              border: none;
+                              border-bottom: 1px solid $dark-bg;
+                              width: 405px;
+                              padding: 8px 5px;
+                              margin-bottom: 24px;
+                              outline: none;
+                              font-size: 16px;
+                              font-weight: 400;
+
+                              &::placeholder {
+                                    color: $dark-bg;
+                                    opacity: 20%;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 24px;
+                              }
+
+                        }
+                  }
+
+                  textarea {
+                        resize: none;
+                        border: none;
+                        border-bottom: 1px solid $dark-bg;
+                        width: 405px;
+                        outline: none;
+                        padding-bottom: 66px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        display: block;
+                        margin-bottom: 56px;
+
+                        &::placeholder {
+                              color: $dark-bg;
+                              font-size: 16px;
+                              font-weight: 400;
+                              line-height: 24px;
+                              opacity: 0.37;
+                              font-family: Poppins;
+                        }
+                  }
+
+                  .site-btn {
+                        font-family: Poppins;
+
+                        .shape {
+                              width: 29px;
+                              height: 27px;
+                        }
+                  }
+            }
+
+            .contact-right {
+                  background: $secondary-blue;
+                  padding: 83px 152px 128px 96px;
+                  position: relative;
+
+                  img {
+                        position: absolute;
+                  }
+
+                  .top {
+                        top: -23px;
+                        right: 0;
+                  }
+
+                  .bottom {
+                        left: -24px;
+                        bottom: 0;
+                        z-index: -1;
+                  }
+
+                  h6 {
+                        color: $white-text;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        opacity: 0.6;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+                        padding: 12px 0;
+                  }
+
+                  h4 {
+                        color: $white-text;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 28px;
+                        padding: 12px 0 5px 0;
+                  }
+
+                  .sup {
+                        border: none;
+                        padding: 0;
+                        margin-bottom: 28px;
+                  }
+
+                  .hello {
+                        border: none;
+                        padding: 0;
+                        margin-bottom: 28px;
+                        margin-bottom: 54px;
+                  }
+
+                  .socials {
+                        display: flex;
+                        align-items: center;
+                        gap: 27px;
+                  }
+            }
+      }
+}
+
+.map {
+      &-content {
+            img {
+                  width: 1281px;
+                  height: 409px;
+            }
+      }
+}
