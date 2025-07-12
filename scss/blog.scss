@@ -79,17 +79,9 @@
 
                   .imges {
                         display: flex;
-                        position: relative;
-
-                        .img-first {
-                              z-index: 2;
-                              overflow: hidden;
-                        }
-
                         .img-second {
-                              position: absolute;
-                              right: -16px;
-                              z-index: 1;
+                              height: 390px;
+                              transform: rotate(180deg);
                         }
                   }
             }
