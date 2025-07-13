@@ -1,0 +1,52 @@
+@import './variables';
+
+.services {
+      padding: 96px 0;
+      background-color: $light-orange;
+
+      &-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            small {
+                  text-transform: uppercase;
+                  color: #000;
+                  font-size: 14px;
+                  font-weight: 500;
+                  line-height: 20px;
+                  letter-spacing: 3px;
+            }
+
+            h1 {
+                  color: $text-color;
+                  font-size: 48px;
+                  font-weight: 600;
+                  line-height: 58px;
+                  margin: 12px 0 40px 0;
+                  max-width: 777px;
+            }
+
+            button.site-btn {
+                  margin-bottom: 80px;
+            }
+
+      }
+
+      &-right {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            li {
+                  a {
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 36px;
+                  }
+            }
+      }
+}
