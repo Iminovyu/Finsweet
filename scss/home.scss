@@ -628,11 +628,22 @@
             background-color: $white-bg ;
             padding: 48px 42px 42px 40px;
             position: relative;
-            img.shape{
+
+            img.shape {
                   position: absolute;
                   top: -19px;
                   right: 40px;
             }
+
+            img.bg-shape {
+                  position: absolute;
+                  transform: rotate(90deg);
+                  width: 305px;
+                  top: 145px;
+                  left: -162px;
+                  height: 16.55px;
+            }
+
             h2 {
                   margin-bottom: 24px;
                   color: $text-color;
